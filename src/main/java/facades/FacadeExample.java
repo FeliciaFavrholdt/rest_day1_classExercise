@@ -110,6 +110,7 @@ public class FacadeExample {
         RenameMeDTO rmdto = new RenameMeDTO(rm);
         String result = gson.toJson(rmdto);
         System.out.println(result);
+        System.out.println("it should work now");
     }
 
 
