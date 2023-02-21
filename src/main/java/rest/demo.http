@@ -1,0 +1,18 @@
+GET http://localhost:8080/restday1/api/xxx
+###
+
+GET http://localhost:8080/restday1/api/xxx/1
+###
+
+PUT http://localhost:8080/restday1/api/xxx/1
+content-type: application/json
+#User-Agent: Mozilla/5.0 (platform; rv:geckoversion) Gecko/geckotrail Firefox/firefoxversion
+
+{"str1": "Karen", "str2": "Hugo"}
+
+###
+POST http://localhost:8080/restday1/api/xxx
+Content-Type: application/json
+#User-Agent: Mozilla/5.0 (platform; rv:geckoversion) Gecko/geckotrail Firefox/firefoxversion
+
+{"str1": "First Property", "str2": "Second Property"}
